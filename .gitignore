@@ -1,0 +1,8 @@
+cat << 'EOF' >> .gitignore
+/target
+social.db
+social.db-shm
+social.db-wal
+*.log
+.env
+EOF
